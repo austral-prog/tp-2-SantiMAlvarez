@@ -4,14 +4,6 @@ def change():
     
     vuelto = money - expense
     pesos = int(vuelto)
-    centavos = round((vuelto - pesos) * 100)
+    Cents = int(round((Vuelto - Pesos) * 100))
     
-    print("Ingresar gasto:")
-    print(expense)
-    print("Dinero recibido")
-    print(money)
-    print("\nVuelto\n")
-    print("Pesos:")
-    print(pesos)
-    print("Centavos:")
-    print(centavos)
+    print(f"Ingresar gasto:\n{expense}\nDinero recibido\n{money}\n\nVuelto\n\nPesos:\n{Pesos}\nCentavos:\n{Cents}")
